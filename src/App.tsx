@@ -19,12 +19,15 @@ function App() {
         <table>
           <thead>
             <tr>
-
+             <th>Name:</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              
+             <td>Mashhad</td>
+             <tr>
+               <td></td>
+             </tr>
             </tr>
           </tbody>
         </table>
