@@ -5,20 +5,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <div>
           <h1>wethear-app</h1>
-        </div>
-      </header>
       <div>
         <label>
-
+            add location
+            <input type="text" value="tehran"></input>
         </label>
-        <button>
-          
-        </button>
+        <button>search</button>
       </div>
     </div>
+  </div>
   );
 }
 
