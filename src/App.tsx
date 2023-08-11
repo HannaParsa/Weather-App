@@ -10,7 +10,7 @@ function App() {
       <div>
         <label>
             add location
-            <input type="text" value="tehran"></input>
+            <input type="text" value="tehran"/>
         </label>
         <button>search</button>
       </div>
