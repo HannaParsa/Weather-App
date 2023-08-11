@@ -18,10 +18,14 @@ function App() {
         <h2>locations</h2>
         <table>
           <thead>
+            <tr>
 
+            </tr>
           </thead>
           <tbody>
-            
+            <tr>
+              
+            </tr>
           </tbody>
         </table>
       </div>
