@@ -14,6 +14,9 @@ function App() {
         </label>
         <button>search</button>
       </div>
+      <div>
+        <h2>locations</h2>
+      </div>
     </div>
   </div>
   );
