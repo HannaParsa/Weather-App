@@ -25,9 +25,11 @@ function App() {
           <tbody>
             <tr>
              <td>Mashhad</td>
-             <tr>
-               <td></td>
              </tr>
+             <tr>
+               <td>Mazandaran</td>
+             </tr>
+             <tr>
             </tr>
           </tbody>
         </table>
