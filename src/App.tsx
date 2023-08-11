@@ -29,6 +29,7 @@ function App() {
              <tr>
                <td>Mazandaran</td>
              </tr>
+               <td>Shiraz</td>
              <tr>
             </tr>
           </tbody>
