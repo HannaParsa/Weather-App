@@ -24,12 +24,13 @@ function App() {
             </tr>
           </thead>
           <tbody>
-            <tr>
+            {/* <tr>
              <td>Mashhad</td>
              </tr>
-               <td>Shiraz</td>
              <tr>
-            </tr>
+              <td>Shiraz</td>
+            </tr> */}
+            {locations.map(location => <tr><td>{location}</td></tr>)}
           </tbody>
         </table>
       </div>
