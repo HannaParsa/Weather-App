@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 
 function App() {
+  const [locationSearch, setLocationSearch] = useState('Tehran');
+  const [locations, setLocations] = useState(['Mashhad','Shiraz']);
   return (
     <div className="App">
         <div>
@@ -9,7 +11,7 @@ function App() {
       <div>
         <label>
             add location
-            <input type="text" value="tehran"/>
+            <input type="text" value={locationSearch} onChange = {e => setLocationSearch(e.target.value)}/>
         </label>
         <button>search</button>
       </div>
@@ -24,9 +26,6 @@ function App() {
           <tbody>
             <tr>
              <td>Mashhad</td>
-             </tr>
-             <tr>
-               <td>Mazandaran</td>
              </tr>
                <td>Shiraz</td>
              <tr>
