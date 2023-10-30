@@ -4,6 +4,12 @@ import './App.css';
 function App() {
   const [locationSearch, setLocationSearch] = useState('Tehran');
   const [locations, setLocations] = useState(['Mashhad','Shiraz']);
+  const disableSearch = locationSearch.trim() === '';
+  const addLocation = () => {
+    setLocations([locationSearch, ...locations]);
+    setLocationSearch('');
+};
+
   return (
     <div className="App">
         <div>
