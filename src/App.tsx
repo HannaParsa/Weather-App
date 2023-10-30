@@ -13,7 +13,8 @@ function App() {
             add location
             <input type="text" value={locationSearch} onChange = {e => setLocationSearch(e.target.value)}/>
         </label>
-        <button>search</button>
+        {/* <button>search</button> */}
+        <button onClick={() => setLocations([locationSearch, ...locations])}>Search</button>
       </div>
       <div>
         <h2>locations</h2>
@@ -30,7 +31,7 @@ function App() {
              <tr>
               <td>Shiraz</td>
             </tr> */}
-            {locations.map(location => <tr><td>{location}</td></tr>)}
+            {locations.map((location, index) => <tr key = {index}><td>{location}</td></tr>)}
           </tbody>
         </table>
       </div>
