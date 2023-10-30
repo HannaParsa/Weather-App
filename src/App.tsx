@@ -11,20 +11,20 @@ function App() {
 };
 
   return (
-    <div className="App">
+    <div className="container">
         <div>
           <h1>wethear-app</h1>
       <div>
         <label>
             add location
-            <input type="text" value={locationSearch} onChange = {e => setLocationSearch(e.target.value)}/>
+            <input className="ml-1 mr-1" type="text" value={locationSearch} onChange = {e => setLocationSearch(e.target.value)}/>
         </label>
         {/* <button>search</button> */}
-        <button onClick={() => setLocations([locationSearch, ...locations])}>Search</button>
+        <button className="btn btn-primary" onClick={() => setLocations([locationSearch, ...locations])}>Search</button>
       </div>
       <div>
         <h2>locations</h2>
-        <table>
+        <table className="table table-hover">
           <thead>
             <tr>
              <th>Name:</th>
